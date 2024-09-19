@@ -1,3 +1,8 @@
+'''
+Programa para modificar el tamaño de una fotografia
+'''
+
+
 def aspect_ratio_16_9(x, y):
     # Calcula el nuevo ancho para que la imagen tenga una relación de aspecto de 16:9
     new_x = round((16 / 9) * y)
