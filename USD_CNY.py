@@ -1,3 +1,8 @@
+'''
+Codigo para convertir un valor monetario de dolar estadounidense a yuan chino
+'''
+
+
 def convertir_usd_a_cny(usd):
     tasa_conversion = 7.1  # Tasa de conversión de USD a CNY
     cny = usd * tasa_conversion
