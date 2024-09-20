@@ -1,3 +1,9 @@
+'''
+Codigo que nos ayuda a definir los puntos de los
+jugadores en relacion a su tiempo en cancha
+'''
+
+
 def nba_extrap(ppg, mpg):
     # Si los minutos por partido son 0, devolver 0 para evitar división por cero
     if mpg == 0:
