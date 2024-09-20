@@ -1,3 +1,9 @@
+'''
+Codigo para dictaminar cuantos lt de agua debe tomar un
+ciclista por cada hora de ejercicio
+'''
+
+
 import math
 
 def litros_de_agua(tiempo_horas):
