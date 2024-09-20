@@ -1,3 +1,8 @@
+'''
+Codigo que ayuda a definir la presion segun la temperatura
+'''
+
+
 def presion_total(M1, M2, m1, m2, V, T_C):
     # Convertir temperatura a Kelvin
     T_K = T_C + 273.15
