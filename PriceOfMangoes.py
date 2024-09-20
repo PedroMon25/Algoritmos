@@ -1,3 +1,9 @@
+'''
+Codigo para dictaminar el precio de cada mango
+segun la oferta de 3x2
+'''
+
+
 def mango(cantidad, precio_por_mango):
     # Calcula el número de mangos que se pagan (por cada 3 mangos, solo se pagan 2)
     mangos_pagados = cantidad - (cantidad // 3)
